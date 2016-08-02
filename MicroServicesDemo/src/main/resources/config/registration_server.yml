@@ -1,0 +1,16 @@
+# default server port
+server:
+    port: 8080
+    
+# logging configurations
+logging:
+    level: DEBUG
+    file: global-demo.log
+        
+# Configure this Discovery Server
+eureka:
+  instance:
+    hostname: localhost
+  client:  
+    registerWithEureka: false
+    fetchRegistry: false 

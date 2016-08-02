@@ -1,0 +1,17 @@
+# default server port
+server:
+    port: 8080
+
+# logging configurations
+logging:
+    level: DEBUG
+    file: global-demo.log
+
+# eureka configuration
+spring.application.name: application_server
+
+eureka:   
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka/
+            
