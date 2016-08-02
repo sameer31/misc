@@ -1,4 +1,4 @@
-# GlobalMartDemo
+# MicroServicesDemo
 
 Demo application for MicroServices using Spring Boot approach.
 
